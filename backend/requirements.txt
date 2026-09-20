@@ -1,16 +1,33 @@
+# Road Guardian AI — Backend Dependencies
+
+# Core API Framework
 fastapi
-uvicorn
+uvicorn[standard]
+
+# Authentication
+PyJWT
+python-multipart
+email-validator
+
+# Computer Vision & AI
 opencv-python-headless
 ultralytics
 pillow
+
+# Data & Analytics
 pandas
 numpy
-pydeck
-geocoder
+
+# Database
+pymysql
+
+# PDF & Reporting
 reportlab
 fpdf2
-pymysql
-requests
-email-validator
-python-multipart
 
+# Geolocation & Maps
+pydeck
+geocoder
+
+# HTTP Requests
+requests
